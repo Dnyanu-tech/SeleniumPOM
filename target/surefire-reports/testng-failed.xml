@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.Entrata.Tests.BaseCampRegistrationTest">
+        <methods>
+          <include name="BaseCampRegistration"/>
+          <include name="closeApplication"/>
+          <include name="startApplication"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- com.Entrata.Tests.BaseCampRegistrationTest -->
+      <class name="com.Entrata.Tests.ContactUSFormTest">
+        <methods>
+          <include name="startApplication"/>
+          <include name="closeApplication"/>
+          <include name="ContactUSForm"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- com.Entrata.Tests.ContactUSFormTest -->
+      <class name="com.Entrata.Tests.LoginPropertyManagerTest">
+        <methods>
+          <include name="startApplication"/>
+          <include name="closeApplication"/>
+          <include name="InvalidLoginPropertyManager"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- com.Entrata.Tests.LoginPropertyManagerTest -->
+      <class name="com.Entrata.Tests.HoverToResidentPayTest">
+        <methods>
+          <include name="startApplication"/>
+          <include name="BaseCampRegistration"/>
+          <include name="closeApplication"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- com.Entrata.Tests.HoverToResidentPayTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
